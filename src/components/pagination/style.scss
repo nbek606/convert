@@ -1,0 +1,22 @@
+.pagination {
+    padding: 40px 0;
+    
+    &__btn {
+        background-color: transparent;
+
+        border: 1px solid $darkGrey;
+        border-radius: 5px;
+        
+        color: $black;
+        font-size: 16px;
+
+        padding: 10px 20px;
+        margin-right: 4px;
+
+        cursor: pointer;
+
+        &-current {
+            background-color: $darkGrey;
+        }
+    }
+}

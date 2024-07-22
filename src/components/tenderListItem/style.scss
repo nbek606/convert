@@ -1,0 +1,36 @@
+.tender__list-item {
+    width: calc(20% - 16px);
+
+    padding: 10px;
+
+    border: 1px solid $darkGrey;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    
+    &__title {
+       height: 100px; 
+       h1 {
+            color: $black;
+            font-size: 24px;
+            cursor: pointer;
+       }
+    }
+
+    &__category {
+        color: $darkGrey;
+        font-size: 20px;
+    }
+
+    &__description { 
+        p {
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical; 
+
+            color: $black;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.tender__details {
+    padding-top: 40px;
+    
+    &-loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+    &-back {
+        cursor: pointer;
+        font-size: 24px;
+        color: $darkGrey;
+    }
+    
+    &-title {
+        color: $black;
+        font-size: 40px;
+    }
+
+    &-category {
+        color: $darkGrey;
+        font-size: 24px;
+    }
+
+    &-description {
+        color: $black;
+        font-size: 20px;
+    }
+}

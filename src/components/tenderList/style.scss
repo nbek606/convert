@@ -1,0 +1,14 @@
+.tender__list {
+    &-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &-loader {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
