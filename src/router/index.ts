@@ -1,23 +1,15 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
-import TenderView from '@/views/TenderView.vue'
-import TenderDetails from  '@/views/TenderDetails.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: () => import('@/views/HomeView.vue')
   },
   {
-    path: '/tender',
-    name: 'tender',
-    component: TenderView
-  },
-  {
-    path: '/tender/:id',
-    name: 'tender-details',
-    component: TenderDetails
+    path: '/convert',
+    name: 'convert',
+    component: () => import('@/views/ConvertView.vue')
   }
 ]
 

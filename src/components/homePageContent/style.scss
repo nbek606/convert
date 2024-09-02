@@ -1,0 +1,12 @@
+.base__convert-list {
+    margin-top: 30px;
+    
+    &__item {
+        span {
+            text-transform: uppercase;
+            margin: 0 5px 5px 0;
+            color: $black;
+            font-size: 24px;
+        }
+    }
+}

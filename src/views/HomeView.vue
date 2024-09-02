@@ -1,9 +1,6 @@
-<template lang="">
-    <div class="link">
-        <button class="link__button">
-            <a href="/tender">
-                Тендеры
-            </a>
-        </button>    
-    </div>
+<script lang="ts" setup>
+    import HomePageContent from '@/components/homePageContent/index.vue'
+</script>
+<template>
+   <HomePageContent />
 </template>

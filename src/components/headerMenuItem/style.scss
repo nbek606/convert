@@ -1,0 +1,27 @@
+.header__menu-item {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    box-sizing: border-box;
+
+    a {
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+
+        font-size: 24px;
+        color: $darkGrey;
+
+        height: 100%;
+    }
+
+    &__active {
+        background-color: $blue;
+        
+        a {
+            color: $white;
+        }
+    }
+}
